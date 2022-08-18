@@ -1,0 +1,33 @@
+baseURL: ""
+languageCode: en-us
+title: The Simple Blog📑
+theme: PaperMod
+params:
+  homeInfoParams:
+    Title: "Hey There👋 This is my Blog!!"
+    Content: "Enjoy your time here !! Explore a Lot of cool stuff about lot of amazing things!!"
+  socialIcons:
+    - name: facebook
+      url: "https://www.facebook.com"
+    - name: reddit
+      url: "https://www.reddit.com"
+    - name: telegram
+      url: "https://www.telegram.com"
+    - name: twitter
+      url: "https://www.twitter.com"
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - indentifier: categories
+      name: Categories
+      url: /categories/
+    - indentifier: tags
+      name: Tags
+      url: /tags/
+    - indentifier: archives
+      name: Archives
+      url: /archives/
